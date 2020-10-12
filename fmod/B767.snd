@@ -1,0 +1,283 @@
+A
+1000
+ACF_SOUNDS
+
+DISABLE_LEGACY_ALERT_SOUNDS
+
+
+##### SOUND SPACES #####
+# COCKPIT -----
+BEGIN_SOUND_SPACE
+	SOUND_INDEX 0
+	BLEND_DEPTH 0.1
+	AABB -2.5 0.000 -23.68 2.5 3.1 28
+END_SOUND_SPACE
+########################
+
+
+##### SNAPSHOTS #####
+//----------Cockpit////
+BEGIN_SOUND_ATTACHMENT
+	SNAPSHOT_NAME /in_cockpit
+	PARAM_DREF_IDX 0
+	EVENT_START_COND sim/operation/sound/inside_ratio[0] != 0
+	EVENT_END_COND sim/operation/sound/inside_ratio[0] == 0
+END_SOUND_ATTACHMENT
+########################
+
+
+##### SOUNDS #####
+//----------Engines//// ###############################asfa
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /Engines/GE CF6L
+	VEH_PART engines 0
+	PARAM_DREF_IDX 0
+	EVENT_START_COND sim/flightmodel2/engines/N1_percent[0] > 20
+	EVENT_END_COND sim/flightmodel2/engines/N1_percent[0] <= 20
+END_SOUND_ATTACHMENT
+
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /Engines/GE CF6R
+	VEH_PART engines 1
+	PARAM_DREF_IDX 1
+	EVENT_START_COND sim/flightmodel2/engines/N1_percent[1] > 20
+	EVENT_END_COND sim/flightmodel2/engines/N1_percent[1] <= 20
+END_SOUND_ATTACHMENT
+
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /Engines/INSIDE ENGL
+	VEH_PART engines 0
+	PARAM_DREF_IDX 0
+	EVENT_START_COND sim/flightmodel2/engines/N1_percent[0] > 20
+	EVENT_END_COND sim/flightmodel2/engines/N1_percent[0] <= 20
+END_SOUND_ATTACHMENT
+
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /Engines/INSIDE ENGR
+	VEH_PART engines 1
+	PARAM_DREF_IDX 1
+	EVENT_START_COND sim/flightmodel2/engines/N1_percent[1] > 20
+	EVENT_END_COND sim/flightmodel2/engines/N1_percent[1] <= 20
+END_SOUND_ATTACHMENT
+
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /Engines/ENG ADDL
+	VEH_PART engines 0
+	PARAM_DREF_IDX 0
+	EVENT_START_COND sim/flightmodel2/engines/N1_percent[0] > 20
+	EVENT_END_COND sim/flightmodel2/engines/N1_percent[0] <= 20
+END_SOUND_ATTACHMENT
+
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /Engines/ENG ADDR
+	VEH_PART engines 1
+	PARAM_DREF_IDX 1
+	EVENT_START_COND sim/flightmodel2/engines/N1_percent[1] > 20
+	EVENT_END_COND sim/flightmodel2/engines/N1_percent[1] <= 20
+END_SOUND_ATTACHMENT
+
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /Environment/EngineAirRush_L
+	VEH_PART engines 0
+	PARAM_DREF_IDX 0
+	EVENT_START_COND sim/flightmodel2/engines/N1_percent[0] > 20
+	EVENT_END_COND sim/flightmodel2/engines/N1_percent[0] <= 20
+END_SOUND_ATTACHMENT
+
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /Environment/EngineAirRush_R
+	VEH_PART engines 1
+	PARAM_DREF_IDX 1
+	EVENT_START_COND sim/flightmodel2/engines/N1_percent[1] > 20
+	EVENT_END_COND sim/flightmodel2/engines/N1_percent[1] <= 20
+END_SOUND_ATTACHMENT
+
+
+//----------Environment////
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /Environment/Environment
+	PARAM_DREF_IDX 0
+	EVENT_ALWAYS
+END_SOUND_ATTACHMENT
+
+
+
+
+
+
+
+//----------Airframe//// ##############################################
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /Airframe/Ground roll
+	PARAM_DREF_IDX 0
+	EVENT_ALWAYS
+END_SOUND_ATTACHMENT
+
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /Airframe/Flap Drag
+	VEH_XYZ 0 0 0
+	PARAM_DREF_IDX 0
+	EVENT_ALWAYS
+END_SOUND_ATTACHMENT
+
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /Airframe/Gear Drag
+	VEH_XYZ 0 0 0
+	PARAM_DREF_IDX 0
+	EVENT_ALWAYS
+END_SOUND_ATTACHMENT
+
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /Airframe/Airframe Wind
+	VEH_XYZ 0 0 0
+	PARAM_DREF_IDX 0
+	EVENT_ALWAYS
+END_SOUND_ATTACHMENT
+
+
+####coming
+
+//----------Avionics////
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /Systems/Avionics
+	VEH_XYZ 0 0 -23
+	PARAM_DREF_IDX 0
+	EVENT_START_COND sim/operation/sound/fan_volume_ratio[0] == 1
+	EVENT_START_COND sim/operation/sound/fan_volume_ratio[0] != 0
+END_SOUND_ATTACHMENT
+
+//----------Packs////
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /Systems/Packs
+	VEH_XYZ 0 0 0
+	PARAM_DREF_IDX 0
+	EVENT_START_COND sim/cockpit/pressure/bleed_air_on[0] == 1
+	EVENT_END_COND sim/cockpit/pressure/bleed_air_on[0] != 1
+END_SOUND_ATTACHMENT
+
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /Systems/Packs
+	VEH_XYZ 0 0 -23
+	PARAM_DREF_IDX 1
+	EVENT_START_COND sim/cockpit/pressure/bleed_air_on[1] == 1
+	EVENT_END_COND sim/cockpit/pressure/bleed_air_on[1] != 1
+END_SOUND_ATTACHMENT
+
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /Systems/Packs
+	VEH_XYZ 0 0 10
+	PARAM_DREF_IDX 2
+	EVENT_START_COND sim/cockpit/pressure/bleed_air_on[2] == 1
+	EVENT_END_COND sim/cockpit/pressure/bleed_air_on[2] != 1
+END_SOUND_ATTACHMENT
+
+
+
+//----------GPWS////
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /Systems/GPWS/2500
+	VEH_XYZ 0 0 -14
+	PARAM_DREF_IDX 0
+	EVENT_START_COND sim/cockpit2/gauges/indicators/radio_altimeter_height_ft_pilot < 2500
+	EVENT_END_COND sim/cockpit2/gauges/indicators/vvi_fpm_pilot == 0
+	EVENT_END_COND sim/cockpit2/gauges/indicators/radio_altimeter_height_ft_pilot == 2450
+END_SOUND_ATTACHMENT
+
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /Systems/GPWS/1000
+	VEH_XYZ 0 0 -14
+	PARAM_DREF_IDX 0
+	EVENT_START_COND sim/cockpit2/gauges/indicators/radio_altimeter_height_ft_pilot < 1000
+	EVENT_END_COND sim/cockpit2/gauges/indicators/vvi_fpm_pilot == 0
+	EVENT_END_COND sim/cockpit2/gauges/indicators/radio_altimeter_height_ft_pilot == 990
+END_SOUND_ATTACHMENT
+
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /Systems/GPWS/500
+	VEH_XYZ 0 0 -14
+	PARAM_DREF_IDX 0
+	EVENT_START_COND sim/cockpit2/gauges/indicators/radio_altimeter_height_ft_pilot < 500
+	EVENT_END_COND sim/cockpit2/gauges/indicators/vvi_fpm_pilot == 0
+	EVENT_END_COND sim/cockpit2/gauges/indicators/radio_altimeter_height_ft_pilot == 490
+END_SOUND_ATTACHMENT
+
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /Systems/GPWS/400
+	VEH_XYZ 0 0 -14
+	PARAM_DREF_IDX 0
+	EVENT_START_COND sim/cockpit2/gauges/indicators/radio_altimeter_height_ft_pilot < 400
+	EVENT_END_COND sim/cockpit2/gauges/indicators/vvi_fpm_pilot == 0
+	EVENT_END_COND sim/cockpit2/gauges/indicators/radio_altimeter_height_ft_pilot == 390
+END_SOUND_ATTACHMENT
+
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /Systems/GPWS/300
+	VEH_XYZ 0 0 -14
+	PARAM_DREF_IDX 0
+	EVENT_START_COND sim/cockpit2/gauges/indicators/radio_altimeter_height_ft_pilot < 300
+	EVENT_END_COND sim/cockpit2/gauges/indicators/vvi_fpm_pilot == 0
+	EVENT_END_COND sim/cockpit2/gauges/indicators/radio_altimeter_height_ft_pilot == 290
+END_SOUND_ATTACHMENT
+
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /Systems/GPWS/200
+	VEH_XYZ 0 0 -14
+	PARAM_DREF_IDX 0
+	EVENT_START_COND sim/cockpit2/gauges/indicators/radio_altimeter_height_ft_pilot < 200
+	EVENT_END_COND sim/cockpit2/gauges/indicators/vvi_fpm_pilot == 0
+	EVENT_END_COND sim/cockpit2/gauges/indicators/radio_altimeter_height_ft_pilot == 190
+END_SOUND_ATTACHMENT
+
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /Systems/GPWS/100
+	VEH_XYZ 0 0 -14
+	PARAM_DREF_IDX 0
+	EVENT_START_COND sim/cockpit2/gauges/indicators/radio_altimeter_height_ft_pilot < 100
+	EVENT_END_COND sim/cockpit2/gauges/indicators/vvi_fpm_pilot == 0
+	EVENT_END_COND sim/cockpit2/gauges/indicators/radio_altimeter_height_ft_pilot == 90
+END_SOUND_ATTACHMENT
+
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /Systems/GPWS/50
+	VEH_XYZ 0 0 -14
+	PARAM_DREF_IDX 0
+	EVENT_START_COND sim/cockpit2/gauges/indicators/radio_altimeter_height_ft_pilot < 50
+	EVENT_END_COND sim/cockpit2/gauges/indicators/vvi_fpm_pilot == 0
+	EVENT_END_COND sim/cockpit2/gauges/indicators/radio_altimeter_height_ft_pilot == 40
+END_SOUND_ATTACHMENT
+
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /Systems/GPWS/40
+	VEH_XYZ 0 0 -14
+	PARAM_DREF_IDX 0
+	EVENT_START_COND sim/cockpit2/gauges/indicators/radio_altimeter_height_ft_pilot < 40
+	EVENT_END_COND sim/cockpit2/gauges/indicators/vvi_fpm_pilot == 0
+	EVENT_END_COND sim/cockpit2/gauges/indicators/radio_altimeter_height_ft_pilot == 30
+END_SOUND_ATTACHMENT
+
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /Systems/GPWS/30
+	VEH_XYZ 0 0 -14
+	PARAM_DREF_IDX 0
+	EVENT_START_COND sim/cockpit2/gauges/indicators/radio_altimeter_height_ft_pilot < 30
+	EVENT_END_COND sim/cockpit2/gauges/indicators/vvi_fpm_pilot == 0
+	EVENT_END_COND sim/cockpit2/gauges/indicators/radio_altimeter_height_ft_pilot == 20
+END_SOUND_ATTACHMENT
+
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /Systems/GPWS/20
+	VEH_XYZ 0 0 -14
+	PARAM_DREF_IDX 0
+	EVENT_START_COND sim/cockpit2/gauges/indicators/radio_altimeter_height_ft_pilot < 20
+	EVENT_END_COND sim/cockpit2/gauges/indicators/vvi_fpm_pilot == 0
+	EVENT_END_COND sim/cockpit2/gauges/indicators/radio_altimeter_height_ft_pilot == 10
+END_SOUND_ATTACHMENT
+
+BEGIN_SOUND_ATTACHMENT
+	EVENT_NAME /Systems/GPWS/10
+	VEH_XYZ 0 0 -14
+	PARAM_DREF_IDX 0
+	EVENT_START_COND sim/cockpit2/gauges/indicators/radio_altimeter_height_ft_pilot < 10
+	EVENT_END_COND sim/flightmodel/position/
+	EVENT_END_COND sim/cockpit2/gauges/indicators/radio_altimeter_height_ft_pilot == 5
+END_SOUND_ATTACHMENT

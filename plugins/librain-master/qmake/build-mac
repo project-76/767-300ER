@@ -1,0 +1,43 @@
+#!/bin/sh
+
+# CDDL HEADER START
+#
+# This file and its contents are supplied under the terms of the
+# Common Development and Distribution License ("CDDL"), version 1.0.
+# You may only use this file in accordance with the terms of version
+# 1.0 of the CDDL.
+#
+# A full copy of the text of the CDDL should have accompanied this
+# source.  A copy of the CDDL is also available via the Internet at
+# http://www.illumos.org/license/CDDL.
+#
+# CDDL HEADER END
+
+# Copyright 2018 Saso Kiselkov. All rights reserved.
+
+# We'll try to build on N+1 CPUs we have available. The extra +1 is to allow
+# for one make instance to be blocking on disk.
+NCPUS=$(( $(sysctl -n hw.ncpu) + 1 ))
+
+rm -rf mac64
+mkdir -p mac64
+
+qmake -set STANDALONE 1
+
+make distclean > /dev/null
+
+qmake -set DLL 0
+qmake -spec macx-clang
+make clean && make -j $NCPUS
+if [ $? != 0 ] ; then
+	exit
+fi
+mv librain.a mac64
+
+qmake -set DLL 1
+qmake -spec macx-clang
+make clean && make -j $NCPUS
+if [ $? != 0 ] ; then
+	exit
+fi
+mv librain.dylib mac64

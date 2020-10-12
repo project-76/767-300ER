@@ -1,0 +1,137 @@
+I
+800
+OBJ
+
+TEXTURE		lights.png
+TEXTURE_LIT	lights_LIT.png
+POINT_COUNTS	0 0 0 0
+
+
+LIGHT_NAMED	airplane_landing0	  -2.9401   -1.0452   -8.6114
+LIGHT_NAMED	airplane_landing1	   2.9400   -1.0452   -8.6114
+ANIM_begin
+	ANIM_trans	   7.4372   -0.2471   -3.0405	   7.4372   -0.2471   -3.0405	0 0	no_ref
+	ANIM_rotate_begin	  -0.0000   -0.0000   -1.0000	sim/custom/xap/wings/wing_flex_R
+		ANIM_rotate_key	-1.0	  1.00
+		ANIM_rotate_key	0.0	  0.00
+		ANIM_rotate_key	1	  0.00
+	ANIM_rotate_end
+	ANIM_begin
+		ANIM_trans	   0.0000   -0.8705    0.0318	   0.0000   -0.8705    0.0318	0 0	no_ref
+		ANIM_rotate_begin	   0.0000    0.0000    1.0000	sim/custom/xap/wings/wing_flex_R
+			ANIM_rotate_key	-1.0	  0.00
+			ANIM_rotate_key	0.0	  0.00
+			ANIM_rotate_key	1	  1.00
+		ANIM_rotate_end
+		ANIM_begin
+			ANIM_trans	  11.3157    1.8195    6.8244	  11.3157    1.8195    6.8244	0 0	no_ref
+			ANIM_rotate_begin	   0.3745    0.0065   -0.9272	sim/custom/xap/wings/wing_flex_R
+				ANIM_rotate_key	-1.0	  1.00
+				ANIM_rotate_key	0.0	  0.00
+				ANIM_rotate_key	1	  0.00
+			ANIM_rotate_end
+			ANIM_begin
+				ANIM_trans	   0.0034   -0.3966   -0.0084	   0.0034   -0.3966   -0.0084	0 0	no_ref
+				ANIM_rotate_begin	  -0.3746   -0.0000    0.9272	sim/custom/xap/wings/wing_flex_R
+					ANIM_rotate_key	-1.0	  0.00
+					ANIM_rotate_key	0.0	  0.00
+					ANIM_rotate_key	1	  1.00
+				ANIM_rotate_end
+				ANIM_begin
+					ANIM_hide	0.0 0.0	sim/custom/xap/lights/position_lamp
+					ANIM_trans	   5.6184    0.5589    2.2720	   5.6184    0.5589    2.2720	0 0	no_ref
+					LIGHT_CUSTOM	  -0.7126    0.1144    0.0262	 0.000  0.841  0.493  1.000    0.3000	0.0    0.0    1.0    1.0   	NULL
+					LIGHT_CUSTOM	  -0.8408    0.1144    1.8275	 1.000  1.000  1.000  1.000    0.2000	0.0    0.0    1.0    1.0   	NULL
+					LIGHT_CUSTOM	  -0.7654    0.1144    1.8275	 1.000  1.000  1.000  1.000    0.2000	0.0    0.0    1.0    1.0   	NULL
+				ANIM_end
+				ANIM_begin
+					ANIM_hide	0.0 0.0	sim/custom/xap/lights/AC_white_lamp
+					ANIM_trans	   5.7800    0.5589    2.9402	   5.7800    0.5589    2.9402	0 0	no_ref
+					LIGHT_CUSTOM	  -0.7178    0.1144   -0.0730	 1.000  1.000  1.000  1.000    2.0000	0.0    0.0    1.0    1.0   	NULL
+				ANIM_end
+			ANIM_end
+		ANIM_end
+	ANIM_end
+ANIM_end
+ANIM_begin
+	ANIM_trans	  -7.4372   -0.2471   -3.0405	  -7.4372   -0.2471   -3.0405	0 0	no_ref
+	ANIM_rotate_begin	  -0.0000    0.0000    1.0000	sim/custom/xap/wings/wing_flex_L
+		ANIM_rotate_key	-1.0	  1.00
+		ANIM_rotate_key	0.0	  0.00
+		ANIM_rotate_key	1	  0.00
+	ANIM_rotate_end
+	ANIM_begin
+		ANIM_trans	   0.0000   -0.8705    0.0318	   0.0000   -0.8705    0.0318	0 0	no_ref
+		ANIM_rotate_begin	  -0.0000   -0.0000   -1.0000	sim/custom/xap/wings/wing_flex_L
+			ANIM_rotate_key	-1.0	  0.00
+			ANIM_rotate_key	0.0	  0.00
+			ANIM_rotate_key	1	  1.00
+		ANIM_rotate_end
+		ANIM_begin
+			ANIM_trans	 -11.3157    1.8195    6.8244	 -11.3157    1.8195    6.8244	0 0	no_ref
+			ANIM_rotate_begin	   0.3745   -0.0065    0.9272	sim/custom/xap/wings/wing_flex_L
+				ANIM_rotate_key	-1.0	  1.00
+				ANIM_rotate_key	0.0	  0.00
+				ANIM_rotate_key	1	  0.00
+			ANIM_rotate_end
+			ANIM_begin
+				ANIM_trans	  -0.0034   -0.3966   -0.0084	  -0.0034   -0.3966   -0.0084	0 0	no_ref
+				ANIM_rotate_begin	  -0.3746   -0.0000   -0.9272	sim/custom/xap/wings/wing_flex_L
+					ANIM_rotate_key	-1.0	  0.00
+					ANIM_rotate_key	0.0	  0.00
+					ANIM_rotate_key	1	  1.00
+				ANIM_rotate_end
+				ANIM_begin
+					ANIM_hide	0.0 0.0	sim/custom/xap/lights/position_lamp
+					ANIM_trans	  -5.2643    0.5589    2.1887	  -5.2643    0.5589    2.1887	0 0	no_ref
+					LIGHT_CUSTOM	   0.3587    0.1144    0.1095	 0.841  0.000  0.000  1.000    0.3000	0.0    0.0    1.0    1.0   	NULL
+					LIGHT_CUSTOM	   0.4149    0.1144    1.9108	 1.000  1.000  1.000  1.000    0.2000	0.0    0.0    1.0    1.0   	NULL
+					LIGHT_CUSTOM	   0.4845    0.1144    1.9108	 1.000  1.000  1.000  1.000    0.2000	0.0    0.0    1.0    1.0   	NULL
+				ANIM_end
+				ANIM_begin
+					ANIM_hide	0.0 0.0	sim/custom/xap/lights/AC_white_lamp
+					ANIM_trans	  -5.6360    0.5589    2.8869	  -5.6360    0.5589    2.8869	0 0	no_ref
+					LIGHT_CUSTOM	   0.5744    0.1144   -0.0197	 1.000  1.000  1.000  1.000    2.0000	0.0    0.0    1.0    1.0   	NULL
+				ANIM_end
+			ANIM_end
+		ANIM_end
+	ANIM_end
+ANIM_end
+ANIM_begin
+	ANIM_trans	   0.0002   -2.2384  -22.8301	   0.0002   -2.2384  -22.8301	0 0	no_ref
+	ANIM_rotate	   1.0000   -0.0000   -0.0000	  0.00 115.00	1.0 0.0	sim/flightmodel2/gear/deploy_ratio[0]
+	LIGHT_NAMED	airplane_landing2	  -0.2267   -0.3444   -0.3212
+	LIGHT_NAMED	airplane_landing2	   0.2268   -0.3444   -0.3212
+ANIM_end
+ANIM_begin
+	ANIM_hide	0.0 0.9	sim/flightmodel2/gear/deploy_ratio[0]
+	ANIM_hide	0.0 0.0	sim/custom/xap/lights/taxi_lamp
+	ANIM_trans	   0.0002   -2.2384  -22.8301	   0.0002   -2.2384  -22.8301	0 0	no_ref
+	ANIM_rotate	   1.0000    0.0000   -0.0000	  0.00 115.00	1.0 0.0	sim/flightmodel2/gear/deploy_ratio[0]
+	ANIM_begin
+		ANIM_trans	   0.0000   -1.0009   -0.1874	   0.0000   -1.0009   -0.1874	0 0	no_ref
+		ANIM_rotate	   0.0000   -1.0000   -0.0000	  0.00   1.00	0 1	sim/flightmodel2/gear/tire_steer_actual_deg[0]
+		ANIM_begin
+			ANIM_trans	   0.0000   -0.3946    0.0000	   0.0000   -0.2946    0.0000	0 0.1	sim/custom/xap/gears/gear_deflect_F
+			LIGHT_NAMED	airplane_taxi		  -0.0000   -0.4618   -0.1870
+		ANIM_end
+	ANIM_end
+ANIM_end
+ANIM_begin
+	ANIM_hide	0.0 0.0	sim/custom/xap/lights/runway_L_lamp
+	ANIM_trans	  -2.8525   -1.0447   -8.4583	  -2.8525   -1.0447   -8.4583	0 0	no_ref
+	LIGHT_NAMED	airplane_taxi		   0.0000    0.0000   -0.2017
+ANIM_end
+ANIM_begin
+	ANIM_hide	0.0 0.0	sim/custom/xap/lights/runway_R_lamp
+	ANIM_trans	   2.8520   -1.0447   -8.4583	   2.8520   -1.0447   -8.4583	0 0	no_ref
+	LIGHT_NAMED	airplane_taxi		   0.0000    0.0000   -0.2017
+ANIM_end
+ANIM_begin
+	ANIM_hide	0.0 0.0	sim/custom/xap/lights/AC_red_lamp
+	ANIM_trans	   0.0000    1.3260   -6.3758	   0.0000    1.3260   -6.3758	0 0	no_ref
+	LIGHT_CUSTOM	   0.0001   -4.0939    1.1741	 1.000  0.000  0.000  1.000    2.0000	0.0    0.0    1.0    1.0   	NULL
+	LIGHT_CUSTOM	   0.0001    1.4512  -10.6372	 1.000  0.000  0.000  1.000    2.0000	0.0    0.0    1.0    1.0   	NULL
+ANIM_end
+
+# Built with Blender 2.49. Exported with XPlane2Blender 3.09.

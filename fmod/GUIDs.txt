@@ -1,0 +1,39 @@
+{1a88bd60-7675-4458-8618-9cb0ec9dfd9b} event:/Airframe/Gear Drag
+{76f6aa77-218d-4e5c-99ec-10f2daec9461} event:/Airframe/Flap Drag
+{1be33d1a-8f83-47c7-a8e0-13dfb1a8ba11} event:/Airframe/Airframe Wind
+{a159a78a-1049-4db9-bcc5-25260a5e5ad7} event:/Airframe/Ground roll
+{f5588b4b-6f17-4cea-9122-626fae73f001} event:/Engines/ENG ADDL
+{d57031ec-6574-4ff6-b270-c604114b1681} event:/Engines/ENG ADDR
+{7178974d-e6e3-40a9-b101-9eb80a95e095} event:/Engines/INSIDE ENGL
+{9b5ecab4-3ddb-45df-805e-1ae06d3163ee} event:/Engines/INSIDE ENGR
+{14935673-b145-4890-bbf4-8f0326de924e} event:/Engines/GE CF6L
+{0557b25d-b70c-4cec-9ea7-45cf9110e53e} event:/Engines/GE CF6R
+{15077b0b-ccfc-4507-b032-67c30a9a8f6c} event:/Environment/EngineAirRush_L
+{bd74bcdd-41ef-42dd-a1df-b6ed4d38d2ce} event:/Environment/EngineAirRush_R
+{29fe6b5e-429b-4c71-8fbc-d9624c2076c1} event:/Environment/Environment
+{64501bbb-ec9b-456c-9e8a-ba74efe0d45c} event:/Systems/GPWS/10
+{dde0cbda-8453-4c59-b85e-9835aac4faf6} event:/Systems/GPWS/100
+{24f31617-def6-4803-b490-09e2d76a56e8} event:/Systems/GPWS/1000
+{fac65d90-2be1-4e13-8286-f6103d4ff75a} event:/Systems/GPWS/20
+{349dec4e-fe79-4787-a567-050920ef4f33} event:/Systems/GPWS/200
+{aae177ae-cb67-4ee2-994b-d699a54bb414} event:/Systems/GPWS/2500
+{58db185d-1e6d-44e0-9adb-a98153a24de3} event:/Systems/GPWS/30
+{605b1919-0dfa-44d7-a9b5-45d596828f40} event:/Systems/GPWS/300
+{e76ca177-74b4-4876-ae99-4bb6b9a731c7} event:/Systems/GPWS/40
+{5974b08b-073c-4efd-b255-4ffd844f17e3} event:/Systems/GPWS/400
+{5969dae6-160a-47c0-920d-a03f07c7d9e7} event:/Systems/GPWS/50
+{7fd89b08-cff4-4e81-a2ea-613c8b669794} event:/Systems/GPWS/500
+{5880efaa-13e8-4da9-b97c-e5d2e571ccc5} event:/Systems/Avionics
+{589b052a-154a-45f2-9fb2-4f0f7779e3d8} event:/Systems/Packs
+{9f08114d-36ec-44cc-b8bf-b2babda09f9e} bus:/
+{7f7c05a4-e05a-4d44-94fe-d4691147a9b7} bus:/Master
+{e3492bec-f854-4fbb-b2bc-23586269032e} bus:/Master/Copilot
+{a5a85a81-afd5-4425-9dc2-6e50f7776e6a} bus:/Master/Exterior Processed
+{06db5351-0b2f-4648-b97a-a33b40a00e11} bus:/Master/Exterior Processed/Aircraft
+{b6c156f1-9861-405c-a622-92b2ab8010a7} bus:/Master/Exterior Processed/Environment
+{8dbbc9d7-a954-4ed0-b1f1-f8111b03cbd1} bus:/Master/Exterior Unprocessed
+{751f5066-4651-4afb-a410-4cb9db0894c9} bus:/Master/Interior
+{d8526059-b27c-4eae-9b14-a1ee1cb3dfa1} bus:/Master/Radios
+{77575f3b-b9cd-4bff-9056-637cff744a14} bus:/Master/UI
+{53bd69e8-8587-49ee-98bc-09ed1b96251e} snapshot:/in_cockpit
+{6f84f072-1ec9-4c9d-a394-e1ccb28e17f0} bank:/Master Bank

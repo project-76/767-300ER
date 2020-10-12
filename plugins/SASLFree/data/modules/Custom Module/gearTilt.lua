@@ -1,0 +1,1 @@
+createGlobalPropertyi("VFS/767/Gear/GearTilt", 0)
