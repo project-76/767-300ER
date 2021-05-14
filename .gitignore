@@ -1,4 +1,5 @@
 .DS_Store
+.vs/*
 Felis763ER.blend
 cockpit lights.txt
 cockpit text
@@ -248,3 +249,6 @@ objects/flightdeck2_light\.png
 objects/flightdeck3_light\.blend
 objects/flightdeck3_light\.blend1
 objects/flightdeck3_light\.png
+B767_prefs.txt
+plugins/SASLFree/data/modules/configuration/wprefs.ini
+plugins/SASLFree/data/output/SASLLog.txt
