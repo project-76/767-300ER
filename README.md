@@ -25,5 +25,5 @@ To request features, please create an issue using GitHub's built-in tool, please
 # Contact
 
 ```
-Any Concerns shall be communicated to Lorne, lornebookr@gmail.com or in our discord Server: [Join Here!](https://www.discord.gg/J3k3cRq)
+Any concerns can be directed to contact.project76@gmail.com or Luca C#4350
 ```
