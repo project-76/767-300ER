@@ -1,7 +1,7 @@
-Vintage-Flight-Simulations 767-300ER
+Project 76 767-300ER
 Windows Only
 
-All Files retain to Vintage Flight Simulations and Felis Leopard. and re-distruibution of our modification is Prohibited!
+All Files retain to Project 76 and Felis Leopard. and re-distruibution of our modification is Prohibited!
 
 By installing and using any files provided with the download, you acknowledge that the author is not responsible for any potential harm they might cause either to you, other people, your hardware or software.
 
