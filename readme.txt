@@ -8,4 +8,4 @@ By installing and using any files provided with the download, you acknowledge th
 This Aircraft contains Modified Files from Felis Leopard's 767-300.
 Ambient Occlusion by NotchMaster
 
-Any Concerns shall be communicated to Luca, luca.cederberg@gmail.com or in our discord Server; www.discord.gg/J3k3cRq
+Any Concerns shall be communicated in our discord Server; Permanent Invite Link: https://discord.gg/UDzjWHVArU
