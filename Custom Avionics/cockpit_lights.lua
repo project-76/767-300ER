@@ -39,68 +39,68 @@ createProp("sim/custom/xap/lights/lt_ovrd_button", "int", 0); -- light override 
 
 -- define properties
 -- results
-defineProperty("left_panel_gau", globalPropertyf("sim/custom/xap/lights/left_panel_gau")) -- brightness of LIT 0...1
-defineProperty("right_panel_gau", globalPropertyf("sim/custom/xap/lights/right_panel_gau")) -- brightness of LIT 0...1
-defineProperty("left_map", globalPropertyf("sim/custom/xap/lights/left_map")) -- brightness of LIT 0...1
-defineProperty("right_map", globalPropertyf("sim/custom/xap/lights/right_map")) -- brightness of LIT 0...1
-defineProperty("AP_marks", globalPropertyf("sim/custom/xap/lights/AP_marks")) -- brightness of LIT 0...1
-defineProperty("AP_panel", globalPropertyf("sim/custom/xap/lights/AP_panel")) -- brightness of LIT 0...1
-defineProperty("circuit_br_marks", globalPropertyf("sim/custom/xap/lights/circuit_br_marks")) -- brightness of LIT 0...1
-defineProperty("overhead_marks", globalPropertyf("sim/custom/xap/lights/overhead_marks")) -- brightness of LIT 0...1
-defineProperty("pedestal_marks", globalPropertyf("sim/custom/xap/lights/pedestal_marks")) -- brightness of LIT 0...1
-defineProperty("pedestal_panel", globalPropertyf("sim/custom/xap/lights/pedestal_panel")) -- brightness of LIT 0...1
-defineProperty("back_panel", globalPropertyf("sim/custom/xap/lights/back_panel")) -- brightness of LIT 0...1
-defineProperty("exit_lamp", globalPropertyf("sim/custom/xap/lights/exit_lamp")) -- brightness of LIT 0...1
+defineProperty("left_panel_gau",            globalPropertyf("sim/custom/xap/lights/left_panel_gau")) -- brightness of LIT 0...1
+defineProperty("right_panel_gau",           globalPropertyf("sim/custom/xap/lights/right_panel_gau")) -- brightness of LIT 0...1
+defineProperty("left_map",                  globalPropertyf("sim/custom/xap/lights/left_map")) -- brightness of LIT 0...1
+defineProperty("right_map",                 globalPropertyf("sim/custom/xap/lights/right_map")) -- brightness of LIT 0...1
+defineProperty("AP_marks",                  globalPropertyf("sim/custom/xap/lights/AP_marks")) -- brightness of LIT 0...1
+defineProperty("AP_panel",                  globalPropertyf("sim/custom/xap/lights/AP_panel")) -- brightness of LIT 0...1
+defineProperty("circuit_br_marks",          globalPropertyf("sim/custom/xap/lights/circuit_br_marks")) -- brightness of LIT 0...1
+defineProperty("overhead_marks",            globalPropertyf("sim/custom/xap/lights/overhead_marks")) -- brightness of LIT 0...1
+defineProperty("pedestal_marks",            globalPropertyf("sim/custom/xap/lights/pedestal_marks")) -- brightness of LIT 0...1
+defineProperty("pedestal_panel",            globalPropertyf("sim/custom/xap/lights/pedestal_panel")) -- brightness of LIT 0...1
+defineProperty("back_panel",                globalPropertyf("sim/custom/xap/lights/back_panel")) -- brightness of LIT 0...1
+defineProperty("exit_lamp",                 globalPropertyf("sim/custom/xap/lights/exit_lamp")) -- brightness of LIT 0...1
 
-defineProperty("salon_light", globalPropertyf("sim/custom/xap/lights/salon_light")) -- brightness of LIT 0...1
+defineProperty("salon_light",               globalPropertyf("sim/custom/xap/lights/salon_light")) -- brightness of LIT 0...1
 
-defineProperty("spotlight_left", globalPropertyf("sim/cockpit2/switches/panel_brightness_ratio[1]")) -- brightness of lamp 0...1
-defineProperty("spotlight_right", globalPropertyf("sim/cockpit2/switches/panel_brightness_ratio[2]")) -- brightness of lamp 0...1
-defineProperty("spotlight_center", globalPropertyf("sim/cockpit2/switches/panel_brightness_ratio[3]")) -- brightness of lamp 0...1
+defineProperty("spotlight_left",            globalPropertyf("sim/cockpit2/switches/panel_brightness_ratio[1]")) -- brightness of lamp 0...1
+defineProperty("spotlight_right",           globalPropertyf("sim/cockpit2/switches/panel_brightness_ratio[2]")) -- brightness of lamp 0...1
+defineProperty("spotlight_center",          globalPropertyf("sim/cockpit2/switches/panel_brightness_ratio[3]")) -- brightness of lamp 0...1
 
-defineProperty("panel_brightness", globalPropertyf("sim/cockpit2/switches/panel_brightness_ratio[0]")) -- brightness of panel 0...1
+defineProperty("panel_brightness",          globalPropertyf("sim/cockpit2/switches/panel_brightness_ratio[0]")) -- brightness of panel 0...1
 
 -- controls
-defineProperty("left_panel_gau_rotary", globalPropertyf("sim/custom/xap/lights/left_panel_gau_rotary")) -- brightness of LIT 0...1
-defineProperty("right_panel_gau_rotary", globalPropertyf("sim/custom/xap/lights/right_panel_gau_rotary")) -- brightness of LIT 0...1
-defineProperty("left_map_rotary", globalPropertyf("sim/custom/xap/lights/left_map_rotary")) -- brightness of LIT 0...1
-defineProperty("right_map_rotary", globalPropertyf("sim/custom/xap/lights/right_map_rotary")) -- brightness of LIT 0...1
-defineProperty("AP_marks_rotary", globalPropertyf("sim/custom/xap/lights/AP_marks_rotary")) -- brightness of LIT 0...1
-defineProperty("AP_panel_rotary", globalPropertyf("sim/custom/xap/lights/AP_panel_rotary")) -- brightness of LIT 0...1
-defineProperty("circuit_br_marks_rotary", globalPropertyf("sim/custom/xap/lights/circuit_br_marks_rotary")) -- brightness of LIT 0...1
-defineProperty("overhead_marks_rotary", globalPropertyf("sim/custom/xap/lights/overhead_marks_rotary")) -- brightness of LIT 0...1
-defineProperty("pedestal_marks_rotary", globalPropertyf("sim/custom/xap/lights/pedestal_marks_rotary")) -- brightness of LIT 0...1
-defineProperty("pedestal_panel_rotary", globalPropertyf("sim/custom/xap/lights/pedestal_panel_rotary")) -- brightness of LIT 0...1
-defineProperty("left_panel_rotary", globalPropertyf("sim/custom/xap/lights/left_panel_rotary")) -- brightness of LIT 0...1
-defineProperty("right_panel_rotary", globalPropertyf("sim/custom/xap/lights/right_panel_rotary")) -- brightness of LIT 0...1
-defineProperty("cabin_flood_rotary", globalPropertyf("sim/custom/xap/lights/cabin_flood_rotary")) -- brightness of LIT 0...1
-defineProperty("backpanel_rotary", globalPropertyf("sim/custom/xap/lights/backpanel_rotary")) -- brightness of LIT 0...1
+defineProperty("left_panel_gau_rotary",     globalPropertyf("sim/custom/xap/lights/left_panel_gau_rotary")) -- brightness of LIT 0...1
+defineProperty("right_panel_gau_rotary",    globalPropertyf("sim/custom/xap/lights/right_panel_gau_rotary")) -- brightness of LIT 0...1
+defineProperty("left_map_rotary",           globalPropertyf("sim/custom/xap/lights/left_map_rotary")) -- brightness of LIT 0...1
+defineProperty("right_map_rotary",          globalPropertyf("sim/custom/xap/lights/right_map_rotary")) -- brightness of LIT 0...1
+defineProperty("AP_marks_rotary",           globalPropertyf("sim/custom/xap/lights/AP_marks_rotary")) -- brightness of LIT 0...1
+defineProperty("AP_panel_rotary",           globalPropertyf("sim/custom/xap/lights/AP_panel_rotary")) -- brightness of LIT 0...1
+defineProperty("circuit_br_marks_rotary",   globalPropertyf("sim/custom/xap/lights/circuit_br_marks_rotary")) -- brightness of LIT 0...1
+defineProperty("overhead_marks_rotary",     globalPropertyf("sim/custom/xap/lights/overhead_marks_rotary")) -- brightness of LIT 0...1
+defineProperty("pedestal_marks_rotary",     globalPropertyf("sim/custom/xap/lights/pedestal_marks_rotary")) -- brightness of LIT 0...1
+defineProperty("pedestal_panel_rotary",     globalPropertyf("sim/custom/xap/lights/pedestal_panel_rotary")) -- brightness of LIT 0...1
+defineProperty("left_panel_rotary",         globalPropertyf("sim/custom/xap/lights/left_panel_rotary")) -- brightness of LIT 0...1
+defineProperty("right_panel_rotary",        globalPropertyf("sim/custom/xap/lights/right_panel_rotary")) -- brightness of LIT 0...1
+defineProperty("cabin_flood_rotary",        globalPropertyf("sim/custom/xap/lights/cabin_flood_rotary")) -- brightness of LIT 0...1
+defineProperty("backpanel_rotary",          globalPropertyf("sim/custom/xap/lights/backpanel_rotary")) -- brightness of LIT 0...1
 
-defineProperty("lt_ovrd_button", globalPropertyi("sim/custom/xap/lights/lt_ovrd_button")) -- brightness of LIT 0...1
+defineProperty("lt_ovrd_button",            globalPropertyi("sim/custom/xap/lights/lt_ovrd_button")) -- brightness of LIT 0...1
 
-function update()
+function update()   -- Called every single frame
 	local power = 1 -- this is lights power variable. must be connected with power logic
 	
 	-- set lamps and textures brightness
 	local ovrd = get(lt_ovrd_button)
 	
-	set(left_panel_gau, get(left_panel_gau_rotary) * power)
-	set(right_panel_gau, get(right_panel_gau_rotary) * power)
-	set(left_map, get(left_map_rotary) * power)
-	set(right_map, get(right_map_rotary) * power)
-	set(AP_marks, math.max(get(AP_marks_rotary), get(AP_panel_rotary)) * power)
-	set(AP_panel, get(AP_panel_rotary) * power)
-	set(circuit_br_marks, get(circuit_br_marks_rotary) * power)
-	set(overhead_marks, get(overhead_marks_rotary) * power)
-	set(pedestal_marks, math.max(get(pedestal_marks_rotary), get(pedestal_panel_rotary)) * power)
-	set(pedestal_panel, get(pedestal_panel_rotary) * power)
-	set(spotlight_left, get(left_panel_rotary) * power * 2)
-	set(spotlight_right, get(right_panel_rotary) * power * 2)
-	set(spotlight_center, get(cabin_flood_rotary) * power * 1.5)
-	set(panel_brightness, get(cabin_flood_rotary) * power * 0.5)
-	set(back_panel, get(backpanel_rotary) * power)
+	set(left_panel_gau,          get(left_panel_gau_rotary) * power)
+	set(right_panel_gau,         get(right_panel_gau_rotary) * power)
+	set(left_map,                get(left_map_rotary) * power)
+	set(right_map,               get(right_map_rotary) * power)
+	set(AP_marks,  math.max(     get(AP_marks_rotary),                  get(AP_panel_rotary)) * power)
+	set(AP_panel,                get(AP_panel_rotary) * power)
+	set(circuit_br_marks,        get(circuit_br_marks_rotary) * power)
+	set(overhead_marks,          get(overhead_marks_rotary) * power)
+	set(pedestal_marks, math.max(get(pedestal_marks_rotary),            get(pedestal_panel_rotary)) * power)
+	set(pedestal_panel,          get(pedestal_panel_rotary) * power)
+	set(spotlight_left,          get(left_panel_rotary) * power * 2)
+	set(spotlight_right,         get(right_panel_rotary) * power * 2)
+	set(spotlight_center,        get(cabin_flood_rotary) * power * 1.5)
+	set(panel_brightness,        get(cabin_flood_rotary) * power * 0.5)
+	set(back_panel,              get(backpanel_rotary) * power)
 	set(exit_lamp, 1)
-	set(salon_light, power)
+	set(salon_light, power) --what's the salon? sandwich
 	
 	if ovrd * power == 1 then
 		set(spotlight_left, 2)
@@ -219,12 +219,10 @@ components = {
     };
 
     rotary {
-        -- image = rotaryImage;
         value = AP_panel_rotary;
         step = 0.1;
         position = { 1536, 654, 33, 16 };
 
-        -- round inches hg to millimeters hg
         adjuster = function(v)
             if v > 1 then v = 1
 			elseif v < 0 then v = 0 end
@@ -233,12 +231,10 @@ components = {
     };
 	
     rotary {
-        -- image = rotaryImage;
         value = pedestal_marks_rotary;
         step = 0.1;
         position = { 1573, 638, 33, 16 };
 
-        -- round inches hg to millimeters hg
         adjuster = function(v)
             if v > 1 then v = 1
 			elseif v < 0 then v = 0 end
@@ -247,12 +243,10 @@ components = {
     };
 
     rotary {
-        -- image = rotaryImage;
         value = pedestal_panel_rotary;
         step = 0.1;
         position = { 1573, 654, 33, 16 };
 
-        -- round inches hg to millimeters hg
         adjuster = function(v)
             if v > 1 then v = 1
 			elseif v < 0 then v = 0 end
@@ -261,12 +255,10 @@ components = {
     };	
 
     rotary {
-        -- image = rotaryImage;
         value = circuit_br_marks_rotary;
         step = 0.1;
         position = { 1625, 600, 34, 34 };
 
-        -- round inches hg to millimeters hg
         adjuster = function(v)
             if v > 1 then v = 1
 			elseif v < 0 then v = 0 end
@@ -275,12 +267,10 @@ components = {
     };
 
     rotary {
-        -- image = rotaryImage;
         value = overhead_marks_rotary;
         step = 0.1;
         position = { 1663, 600, 34, 34 };
 
-        -- round inches hg to millimeters hg
         adjuster = function(v)
             if v > 1 then v = 1
 			elseif v < 0 then v = 0 end
@@ -289,12 +279,10 @@ components = {
     };
 	
     rotary {
-        -- image = rotaryImage;
         value = cabin_flood_rotary;
         step = 0.1;
         position = { 1699, 600, 34, 34 };
 
-        -- round inches hg to millimeters hg
         adjuster = function(v)
             if v > 1 then v = 1
 			elseif v < 0 then v = 0 end
@@ -303,12 +291,10 @@ components = {
     };
 	
     rotary {
-        -- image = rotaryImage;
         value = backpanel_rotary;
         step = 0.1;
         position = { 1911, 550, 35, 35 };
 
-        -- round inches hg to millimeters hg
         adjuster = function(v)
             if v > 1 then v = 1
 			elseif v < 0 then v = 0 end
@@ -324,7 +310,7 @@ components = {
         end,
         --btnOn = get(tmb_up),
         --btnOff = get(tmb_dn),
-        onMouseClick = function()
+        onMouseClick = function()   
             if not switcher_pushed then
 				playSample(btn_click, 0)
 				if get(lt_ovrd_button) ~= 0 then
